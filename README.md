@@ -23,7 +23,7 @@ Some of the links Plixy blocks are:
 6.www.discord.gg/
 Looking for any other links which are not mentioned in here? No problem, Just fire up your favourite text editor and open the index.js file from the bot's folder, navigate to line no.130 and copy-paste the same code as used there and include the links of your choice.
 
-## Useful Stats on the console
+## Useful Stats on the Console/Status
 Want to know the stats of the servers the bot is running on? Well you can now check it out in the console when you start the bot
 It gives info about: 
 1.Number of Users
