@@ -37,6 +37,14 @@ Just type
 ### >weather cityname
 Get the accurate weather in fahrenheit through the openweather API from https://home.openweathermap.org/api_keys .
 
+## Crptocurrency Stats
+Got some crypto traders in the server and they want to keep a track on some crypto currencies? We have an optional function (crypto.js) 
+it is linked with config.json so you just need to open up a new terminal and write (node crypto.js) for this function to start working.
+Commands are:
+>global 
+>price (symbol)
+>info (symbol)
+
 # Super exclusive feature (Only for locally running bots)
 Wanna know what is?? 
 It is .... *Drum rolls* **A home automation feature**... wait what? Yes! a home automation feature!
