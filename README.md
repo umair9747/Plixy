@@ -50,7 +50,7 @@ Note: We are having a public API for all our users which is limited to only 10,0
 ## Random choice
 Confused between what drinks or dishes to choose or some other stuff? Use the command >random choices to get a random choice which can help you out in a better decision making.
 For example:
->random pizza noodles pancake 
+>'>random pizza noodles pancake'
 
 
 # Super exclusive feature (Only for locally running bots)
