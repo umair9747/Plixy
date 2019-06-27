@@ -41,9 +41,10 @@ Get the accurate weather in fahrenheit through the openweather API from https://
 Got some crypto traders in the server and they want to keep a track on some crypto currencies? We have an optional function (crypto.js) 
 it is linked with config.json so you just need to open up a new terminal and write (node crypto.js) for this function to start working.
 Commands are:
->global 
->price (symbol)
->info (symbol)
+'>global' 
+'>price (symbol)'
+'>info (symbol)'
+
 Note: We are having a public API for all our users which is limited to only 10,000 requests per month, if you want to have a private token of your own server you can go to https://coinmarketcap.com/ and get an API which you have to add in Line number : 17 of crypto.js)
 
 ## Random choice
