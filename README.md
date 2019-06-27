@@ -31,7 +31,13 @@ It gives info about:
 3.Number of guilds
 Too lazy to open up the console every time?Well we knew it that's why we also included a pre written user activity which shows the number of servers and users directly on the game status area of the bot!
 
-## Super exclusive feature (Only for locally running bots)
+## Weather of your city
+Wanna see what's the temperature in your friend's city and you're too lazy to open your web browser or weather app?
+Just type 
+### >weather cityname
+Get the accurate weather in fahrenheit through the openweather API from https://home.openweathermap.org/api_keys .
+
+# Super exclusive feature (Only for locally running bots)
 Wanna know what is?? 
 It is .... *Drum rolls* **A home automation feature**... wait what? Yes! a home automation feature!
 Let's Know more about it!
