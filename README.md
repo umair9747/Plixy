@@ -61,6 +61,8 @@ We are using http://johnny-five.io/ which is an  JavaScript Robotics & IoT Platf
 
 For now the only thing it can do is turn the LEDs on the arduino board ON and OFF.But once modified according to the owner's needs it can turn out to be a very useful feature.And since this is an optional feature it won't work till we initiate it using (node arduino.js) in the terminal, this will reduce the overall load on your system.
 
+### Here is an example video from some other source which has almost the same functionality as that of arduino.js
+[Youtube Video](https://youtu.be/b8dSoVmVxyw)
 # Installation
 First of all make sure that you have node.js  installed on your system.
 You can download node.js through :https://nodejs.org/en/		
