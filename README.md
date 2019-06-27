@@ -40,10 +40,9 @@ We are using http://johnny-five.io/ which is an  JavaScript Robotics & IoT Platf
 For now the only thing it can do is turn the LEDs on the arduino board ON and OFF.But once modified according to the owner's needs it can turn out to be a very useful feature.And since this is an optional feature it won't work till we initiate it using (node arduino.js) in the terminal, this will reduce the overall load on your system.
 
 # Installation
-First of all make sure that you have node.js and go environment installed on your system.
-You can download node.js through :https://nodejs.org/en/
-                 go evnironment through: https://golang.org/				
-Once you are done with installing node.js and go, you need to clone the git repo,
+First of all make sure that you have node.js  installed on your system.
+You can download node.js through :https://nodejs.org/en/		
+Once you are done with installing node.js you need to clone the git repo,
 for this you should have git installed on your system, for installation visit:https://git-scm.com/downloads . 
 Open up  your terminal and type git clone https://github.com/umair9747/Plixy/
 it will clone the entire repo on your system, 
