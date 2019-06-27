@@ -46,6 +46,12 @@ Commands are:
 >info (symbol)
 Note: We are having a public API for all our users which is limited to only 10,000 requests per month, if you want to have a private token of your own server you can go to https://coinmarketcap.com/ and get an API which you have to add in Line number : 17 of crypto.js)
 
+## Random choice
+Confused between what drinks or dishes to choose or some other stuff? Use the command >random choices to get a random choice which can help you out in a better decision making.
+For example:
+>random pizza noodles pancake 
+
+
 # Super exclusive feature (Only for locally running bots)
 Wanna know what is?? 
 It is .... *Drum rolls* **A home automation feature**... wait what? Yes! a home automation feature!
