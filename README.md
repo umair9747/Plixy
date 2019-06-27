@@ -44,6 +44,7 @@ Commands are:
 >global 
 >price (symbol)
 >info (symbol)
+Note: We are having a public API for all our users which is limited to only 10,000 requests per month, if you want to have a private token of your own server you can go to https://coinmarketcap.com/ and get an API which you have to add in Line number : 17 of crypto.js)
 
 # Super exclusive feature (Only for locally running bots)
 Wanna know what is?? 
