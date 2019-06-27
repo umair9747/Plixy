@@ -1,5 +1,5 @@
 # Plixy
-### Plixy is a discord bot which falls under the productivity category.It is made up from Discord.js and DiscordGO.It is recommended that you use this bot on a Cloud Server if you have a low end machine.Some of the feature have been seperated so that the overall load on your system/server can be reduced if you don't want some specific functions.
+### Plixy is a discord bot which falls under the productivity category and is made up from Discord.js.It is recommended that you use this bot on a Cloud Server if you have a low end machine.Some of the feature have been seperated so that the overall load on your system/server can be reduced if you don't want some specific functions.
 ![alt text](https://simg.nicepng.com/png/small/645-6452762_discord-icon-for-free-download-on-ya-webdesign.png)
 # Features
 
