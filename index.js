@@ -207,4 +207,11 @@ client.on('guildMemberAdd',member =>{
 	var role = member.guild.roles.find('name', 'Newbie');//change newbie to the rolename you want and make sure it is present in the server
 	member.addRole(role)
 });
+client.on("message", (message) => {
+	const swearWords = ["fucked", "faggot", "nigger", "fuck", "fucker", "fuckoff"];
+if( swearWords.some(word => message.content.includes(word)) ) {
+    message.delete(); 
+	message.reply("Please don't use the banned words!!!");
+}
+});
 client.login(token);
