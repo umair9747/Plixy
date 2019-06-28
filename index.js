@@ -242,4 +242,16 @@ client.on("message", async message => {
 	message.channel.send(passwordembed);
 	}
 });
+
+client.on("message", async message => {
+	const args = message.content.slice(prefix.length).split(' ');
+     const command = args.shift().toLowerCase();
+	 if (message.content.includes(">todo")){
+	  if (!args.length) {
+		return message.channel.send(`You didn't provide any arguments, ${message.author}!`);
+	}
+		 message.channel.send("Added to the to-do list!")
+		 client.channels.get('591577352950251520').send(`${args}`)
+	 }
+});
 client.login(token);

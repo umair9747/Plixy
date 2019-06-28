@@ -22,6 +22,12 @@ Wanna see the pics that NASA uploads daily on their API? Use the command >nasa a
 ## Password Generator
 Worried about weak passwords ? We have now connected with http://www.sethcardoza.com to integrate a password generator API in our bot,
 simply write >password and you will have a strong password on your screen!
+
+## To-Do Command
+Wanna make a channel especially for a to-do list? Great idea now let's bring it to a reality, open your discord's settings and navigate to appearence where you have to enable developer mode. Now make a channel and name it anything of your choice, make sure that it's only the bot which can send messages there.Now right click on the channel name and click on copy channel ID. Now go to the index.js file where you have to add it, navigate to line no. 254 and paste the channel ID there.
+Command: >todo (sentence)
+> for example : >todo put this on the list
+
 ## Anti server Advertising
 Well looks like everyone have the same feeling when it comes to the annoying server advertising by bots/users in your server.. Not any more.. Plixy will directly remove any sort of link which has the frequently used keywords in it.
 Some of the links Plixy blocks are: 
