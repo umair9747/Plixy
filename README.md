@@ -3,6 +3,8 @@
 ![alt text](https://simg.nicepng.com/png/small/645-6452762_discord-icon-for-free-download-on-ya-webdesign.png)
 # Features
 
+## Auto-role assign
+The bot assigns the role to every new member that joins the server,you need to make sure that the role the bot has to assign is already present in the server (role name: Newbie) if you want to add a different role name , open the index.js file, go to line number 216 and change Newbie to the other role name.
 ## Music
 You can now play music from Plixy without any problems... wanna know how?
 ### >play songURL(for eg: Youtube,SoundCloud)
