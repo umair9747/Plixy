@@ -1,10 +1,3 @@
-/* eslint-disable no-console */
-/* eslint-disable angular/interval-service */
-/* eslint-disable node/no-missing-require */
-/* eslint-disable node/no-unpublished-require */
-
-// credits: github.com/n3onis
-
 const discord = require("discord.js"); // https://discord.js.org/
 const cmc_api = require("cmc-info"); // https://github.com/n3onis/cmc-info
 const {
