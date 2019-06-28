@@ -27,6 +27,7 @@ client.once('disconnect', () => {
 	console.log('Disconnect!');
 });
 
+
 client.on('message', async message => {
 	if (message.author.bot) return;
 	if (!message.content.startsWith(prefix)) return;
@@ -251,7 +252,18 @@ client.on("message", async message => {
 		return message.channel.send(`You didn't provide any arguments, ${message.author}!`);
 	}
 		 message.channel.send("Added to the to-do list!")
-		 client.channels.get('591577352950251520').send(`${args}`)
+		 client.channels.get('CHANNEL-ID').send(`${args}`)
+	 }
+});
+client.on("message", async message => {
+		const args = message.content.slice(prefix.length).split(' ');
+     const command = args.shift().toLowerCase();
+	 if (message.content.includes(">quote")){
+	  if (!args.length) {
+		return message.channel.send(`You didn't provide any arguments, ${message.author}!`);
+	}
+		 message.channel.send("Your quote has been added!")
+		 client.channels.get('CHANNEL-ID').send(`${args}`)
 	 }
 });
 client.login(token);

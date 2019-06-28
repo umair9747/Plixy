@@ -47,6 +47,9 @@ It gives info about:
 3.Number of guilds
 Too lazy to open up the console every time?Well we knew it that's why we also included a pre written user activity which shows the number of servers and users directly on the game status area of the bot!
 
+## Add Quotes
+Let your member add quotes to a specific channel,open your discord's settings and navigate to appearence where you have to enable developer mode. Now make a channel and name it anything of your choice, make sure that it's only the bot which can send messages there.Now right click on the channel name and click on copy channel ID. Now go to the index.js file where you have to add it, navigate to line no. 266 and paste the channel ID there.
+command: >quote (sentence)
 ## Weather of your city
 Wanna see what's the temperature in your friend's city and you're too lazy to open your web browser or weather app?
 Just type 
