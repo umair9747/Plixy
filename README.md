@@ -5,10 +5,8 @@
 
 ## Auto-role assign
 The bot assigns the role to every new member that joins the server,you need to make sure that the role the bot has to assign is already present in the server (role name: Newbie) if you want to add a different role name , open the index.js file, go to line number 216 and change Newbie to the other role name.
-
 ## Swear Detector
 Got some annoying members in the server or are you worried if someone would break the rules and use banned words?Just add it up in the array list on line number 211 of index.js file and the bot will automatically delete it and warn the users.
-
 ## Music
 You can now play music from Plixy without any problems... wanna know how?
 ### >play songURL(for eg: Youtube,SoundCloud)
@@ -17,6 +15,9 @@ This command lets you Play/Add to queue any song of your choice directly from Yo
 Didn't liked the song which is currently being played? Well, no worries just use this command and never have any interruptions in the VC night again !
 ### >skip
 Can't wait for the next song?  no issues, just use this command and enjoy the next one !
+
+## Daily uploads from NASA
+Wanna see the pics that NASA uploads daily on their API? Use the command >nasa and it will provide you with the image which was uploaded on that day by NASA.
 
 ## Anti server Advertising
 Well looks like everyone have the same feeling when it comes to the annoying server advertising by bots/users in your server.. Not any more.. Plixy will directly remove any sort of link which has the frequently used keywords in it.
@@ -80,6 +81,5 @@ Now navigate to the directory where the repo was saved and then open up the conf
 Now open up your terminal and navigate to the directory where the bot's repo is saved.Now follow these commands: 
 1. cd Plixy
 2. npm install
-3.Add your bot token in config.js and make sure that when you add it in your  server the permissions integer is 284683344
 3. node index.js (if there are any errors, you just need to see in the terminal which module is missing and enter the command 'npm install modulename' 
 Voila! Plixy Bot is Up and running!
