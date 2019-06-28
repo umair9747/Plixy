@@ -231,4 +231,15 @@ client.on("message", async message => {
 	message.channel.send(imgembed);
 	}
 });
+client.on("message", async message => {
+	if(message.content.includes(">password")){
+		let {body} = await superagent
+	.get(`http://www.sethcardoza.com/api/rest/tools/random_password_generator/type:json`);
+	let passwordembed = new Discord.RichEmbed()
+	.setColor("#ff9900")
+	.setTitle(body.complexity)
+	.setDescription(body.password);
+	message.channel.send(passwordembed);
+	}
+});
 client.login(token);

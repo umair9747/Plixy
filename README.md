@@ -19,6 +19,9 @@ Can't wait for the next song?  no issues, just use this command and enjoy the ne
 ## Daily uploads from NASA
 Wanna see the pics that NASA uploads daily on their API? Use the command >nasa and it will provide you with the image which was uploaded on that day by NASA.
 
+## Password Generator
+Worried about weak passwords ? We have now connected with http://www.sethcardoza.com to integrate a password generator API in our bot,
+simply write >password and you will have a strong password on your screen!
 ## Anti server Advertising
 Well looks like everyone have the same feeling when it comes to the annoying server advertising by bots/users in your server.. Not any more.. Plixy will directly remove any sort of link which has the frequently used keywords in it.
 Some of the links Plixy blocks are: 
