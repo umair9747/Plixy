@@ -203,4 +203,8 @@ client.on("message", (message) => {
 	 }
 });
 
+client.on('guildMemberAdd',member =>{
+	var role = member.guild.roles.find('name', 'Newbie');//change newbie to the rolename you want and make sure it is present in the server
+	member.addRole(role)
+});
 client.login(token);
