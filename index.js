@@ -214,4 +214,9 @@ if( swearWords.some(word => message.content.includes(word)) ) {
 	message.reply("Please don't use the banned words!!!");
 }
 });
+client.on("message", (message) => {
+	 if (message.content.includes(">invitation")){
+		 message.channel.sendMessage("This feature hasn't been configured yet, please go to the line number 219 of index.js and add a shortened link of the server invitation link from https://goo.gl/")
+	 }
+});
 client.login(token);
