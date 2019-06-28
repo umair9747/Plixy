@@ -80,5 +80,6 @@ Now navigate to the directory where the repo was saved and then open up the conf
 Now open up your terminal and navigate to the directory where the bot's repo is saved.Now follow these commands: 
 1. cd Plixy
 2. npm install
+3.Add your bot token in config.js and make sure that when you add it in your  server the permissions integer is 284683344
 3. node index.js (if there are any errors, you just need to see in the terminal which module is missing and enter the command 'npm install modulename' 
 Voila! Plixy Bot is Up and running!
