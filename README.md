@@ -5,6 +5,10 @@
 
 ## Auto-role assign
 The bot assigns the role to every new member that joins the server,you need to make sure that the role the bot has to assign is already present in the server (role name: Newbie) if you want to add a different role name , open the index.js file, go to line number 216 and change Newbie to the other role name.
+
+## Swear Detector
+Got some annoying members in the server or are you worried if someone would break the rules and use banned words?Just add it up in the array list on line number 211 of index.js file and the bot will automatically delete it and warn the users.
+
 ## Music
 You can now play music from Plixy without any problems... wanna know how?
 ### >play songURL(for eg: Youtube,SoundCloud)
