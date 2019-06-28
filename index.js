@@ -3,6 +3,7 @@ const {
 	prefix,
 	token,
 } = require('./config.json');
+const superagent = require("superagent");
 const ytdl = require('ytdl-core');
 
 const client = new Discord.Client();
@@ -218,5 +219,16 @@ client.on("message", (message) => {
 	 if (message.content.includes(">invitation")){
 		 message.channel.sendMessage("This feature hasn't been configured yet, please go to the line number 219 of index.js and add a shortened link of the server invitation link from https://goo.gl/")
 	 }
+});
+client.on("message", async message => {
+	if (message.content.includes(">nasa")){
+	let {body} = await superagent
+	.get(`https://api.nasa.gov/planetary/apod?api_key=zJDrpq9FrmzXgKBALtSjYOguyBjcTPfLE3Hg7G1s`);
+	let imgembed = new Discord.RichEmbed()
+	.setColor("#ff9900")
+	.setTitle("Daily upload by NASA")
+	.setImage(body.url);
+	message.channel.send(imgembed);
+	}
 });
 client.login(token);
