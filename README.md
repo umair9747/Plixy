@@ -28,7 +28,7 @@ Wanna make a channel especially for a to-do list? Great idea now let's bring it 
 Command: >todo (sentence)
 > for example : >todo put this on the list
 
-## Anti server Advertising
+## Prevents server Advertising
 Well looks like everyone have the same feeling when it comes to the annoying server advertising by bots/users in your server.. Not any more.. Plixy will directly remove any sort of link which has the frequently used keywords in it.
 Some of the links Plixy blocks are: 
 1.https://discordbots.org/servers/
