@@ -28,7 +28,7 @@
     "ffmpeg-binaries": "^4.0.0",
     "johnny-five": "^1.1.0",
     "newsapi": "^2.4.0",
-    "opusscript": "0.0.6",
+    "opusscript": "0.0.8",
     "pastebin-js": "^1.0.2",
     "request": "^2.88.0",
     "ytdl-core": "^0.29.2"
